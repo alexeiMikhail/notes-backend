@@ -1,0 +1,10 @@
+GET http://localhost:3001/api/notes/63ab8e37d46189ae3838273f
+
+###
+PUT http://localhost:3001/api/notes/63ab8e37d46189ae3838273f
+Content-Type: application/json
+
+{
+  "content": "This was an unknown note, but now it's known",
+  "important": false
+}
